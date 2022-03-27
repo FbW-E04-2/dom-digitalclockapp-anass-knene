@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+}
+.sunrise {
+  background-image: url("./assets/landscape-morning-sun-sunrise-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.afternoon {
+  background-image: url("./assets/sumerNoon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.evening {
+  background-image: url("./assets/sunset-1633113646566-6413.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.night {
+  background-image: url("./assets/screen-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.midnight {
+  background-image: url("./assets/1-midnight-moon-catherin-moon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 20%;
+  /* background-position-x: 50%; */
+}
+.dayStyle {
+  width: 300px;
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+  border-radius: 10px;
+  background-color: black;
+  color: brown;
+  text-shadow: brown 25px 70px 15px;
+  transform: skew(10deg, 10deg);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.nightStyle {
+  width: 300px;
+  border-top: 5px solid rgb(0, 162, 255);
+  border-left: 5px solid rgb(0, 162, 255);
+  border-right: 5px solid rgb(0, 162, 255);
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(0, 162, 255);
+  transform: skew(10deg, 10deg);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.nightClock {
+  border-top: 5px solid rgb(0, 162, 255);
+  border-left: 5px solid rgb(0, 162, 255);
+  border-right: 5px solid rgb(0, 162, 255);
+  width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 162, 255);
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 20px;
+  text-shadow: rgb(0, 162, 255) 0px 80px 15px;
+  transform: skew(10deg, 10deg);
+}
+.MyClockDisplay {
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+  width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(226, 84, 84);
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 20px;
+  text-shadow: brown 0px 80px 15px;
+  transform: skew(10deg, 10deg);
+}
